@@ -7,6 +7,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+.title {
+  font-size: 14px;
+  color: white;
+}
 
 .site-layout-content {
   background: #fff;
