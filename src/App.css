@@ -17,6 +17,10 @@
   padding: 24px;
   min-height: 280px;
 }
+.center {
+  margin-top: 50px;
+  text-align: center;
+}
 #components-layout-demo-top .logo {
   width: 120px;
   height: 31px;

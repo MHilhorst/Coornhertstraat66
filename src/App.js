@@ -45,7 +45,11 @@ class App extends React.Component {
         </Header>
         <Content style={{ marginTop: 50 }}>
           <div className="site-layout-content">
-            {this.state.loading && <Spin size="large" />}
+            {this.state.loading && (
+              <div className="center">
+                <Spin size="large" />
+              </div>
+            )}
             {this.state.products.length > 0 && (
               <List
                 itemLayout="horizontal"
